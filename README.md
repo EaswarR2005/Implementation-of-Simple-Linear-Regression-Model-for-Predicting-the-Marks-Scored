@@ -14,7 +14,7 @@ To write a program to predict the marks scored by a student using the simple lin
 4. Train Linear Regression Model: Initialize and train a Linear Regression model using the training data.
 5. Visualize and Evaluate: Create scatter plots to visualize data and regression lines for training and testing. Calculate Mean Squared Error (MSE), Mean Absolute Error (MAE), and Root Mean Squared Error (RMSE) to quantify model performance.
 
-## Program:
+## Program and output:
 ```
 /*
 Program to implement the simple linear regression model for predicting the marks scored.
@@ -68,17 +68,23 @@ print("RMSE = ",rmse)
 ```
 ![ex2_op5](https://github.com/user-attachments/assets/5a643ebc-eabd-412c-b061-83d5d804ae1c)
 ```
-plt.scatter(x_train,y_train,color="orange")
-plt.plot(x_train,regressor.predict(x_train),color="red")
-plt.title("Hours vs Scores (Training Set)")
+plt.scatter(x_train,y_train,color='orange')
+plt.plot(x_train,regressor.predict(x_train),color='red')
+plt.title("Hours vs scores (Training set)")
 plt.xlabel("Hours")
-plt.ylabel("Scores")
+plt.ylabel("scores")
 plt.show()
 ```
-
-## Output:
-![simple linear regression model for predicting the marks scored](sam.png)
-
+![ex2_op6](https://github.com/user-attachments/assets/66297300-f916-4d31-bf55-3ea644b675d0)
+```
+plt.scatter(x_test,y_test,color='red')
+plt.plot(x_test,y_pred,color='blue')
+plt.title("Hours vs scores (Test set)")
+plt.xlabel("Hours")
+plt.ylabel("scores")
+plt.show()
+```
+![ex2_op7](https://github.com/user-attachments/assets/e00932ad-f9f4-4e10-975b-3498a7d927c4)
 
 ## Result:
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
