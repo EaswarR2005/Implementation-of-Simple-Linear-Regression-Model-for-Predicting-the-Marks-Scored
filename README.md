@@ -8,19 +8,24 @@ To write a program to predict the marks scored by a student using the simple lin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Import Libraries: Import essential libraries for data manipulation, numerical operations, plotting, and regression analysis.
-2. Load and Explore Data: Load a CSV dataset using pandas, then display initial and final rows to quickly explore the data's structure.
-3. Prepare and Split Data: Divide the data into predictors (x) and target (y). Use train_test_split to create training and testing subsets for model building and evaluation.
-4. Train Linear Regression Model: Initialize and train a Linear Regression model using the training data.
-5. Visualize and Evaluate: Create scatter plots to visualize data and regression lines for training and testing. Calculate Mean Squared Error (MSE), Mean Absolute Error (MAE), and Root Mean Squared Error (RMSE) to quantify model performance.
 
+1. Import required libraries (numpy, pandas, matplotlib, sklearn).
+2. Load the dataset using pandas.
+3. Display dataset records and check for missing values.
+4. Plot a scatter graph to view the relationship between study hours and marks.
+5. Define independent (X) and dependent (Y) variables.
+6. Split the dataset into training and test sets.
+7. Import LinearRegression from sklearn and create a model.
+8. Train the model using training data.
+9. Predict marks for test data and compare with actual values.
+10. Evaluate model performance using MAE, MSE, RMSE, and R² score, and visualise results.
 
 ## Program :
 ```
 /*
 Program to implement the simple linear regression model for predicting the marks scored.
-Developed by: EASWAR R
-RegisterNumber: 212223230053
+Developed by: TAMIZHSELVAN B
+RegisterNumber: 212223230225
 */
 ```
 ```
@@ -97,7 +102,7 @@ plt.show()
 ![EX_2_OUTPUT_6](https://github.com/user-attachments/assets/aa944e6c-8e33-4956-af3c-1dbdc2771048)
 
 # Test Set
-![EX_2_OUTPUT_7](https://github.com/user-attachments/assets/064e8818-0dcf-4f4b-83b9-bc28596e212c)
+![EX_2_OUTPUT_7](https://github.com/user-attachments/assets/8dd7bfe0-c4d9-4d27-b523-c1fe23498b54)
 
 
 ## Result:
