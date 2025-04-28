@@ -24,8 +24,8 @@ To write a program to predict the marks scored by a student using the simple lin
 ```
 /*
 Program to implement the simple linear regression model for predicting the marks scored.
-Developed by: TAMIZHSELVAN B
-RegisterNumber: 212223230225
+Developed by: EASWAR R
+RegisterNumber: 212223230053
 */
 ```
 ```
@@ -102,7 +102,8 @@ plt.show()
 ![EX_2_OUTPUT_6](https://github.com/user-attachments/assets/aa944e6c-8e33-4956-af3c-1dbdc2771048)
 
 # Test Set
-![EX_2_OUTPUT_7](https://github.com/user-attachments/assets/8dd7bfe0-c4d9-4d27-b523-c1fe23498b54)
+![image](https://github.com/user-attachments/assets/65d4d579-52a4-4138-bca0-35dde2e4ef53)
+
 
 
 ## Result:
